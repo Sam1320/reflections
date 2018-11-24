@@ -1,0 +1,9 @@
+What happens when you initialize a repository? Why do you need to do it?
+	a '.git' directory is created that contains metadata about the files inside the directory in which the repository is initialized.
+	This directory keeps track of all the modifications (i.e commits) made to the files in the repository. 
+	It's necessary to initialize a repository because this '.git' directory is the one that allows git to control the commits.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+	It offers a 'middel point' to organize the changes made. It allows you to bundle different files in a single commit in case
+	its necessary. Its different from the repository and the working directory because its actually a conection between the two
+	the files go from the WD to the SA to the repository in that order. It provides a tool for better organization of commits.
