@@ -1,0 +1,34 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?                         
+	It allows me to compare the lines that were modified in the new version (i.e Where the bug is) with the bugless 
+	unmodified old version. 
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+	It would save me the time and messyness of saving multiple versions of the same project under different names 
+	and files.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, 
+vs having versions automatically saved, like Google Docs does?
+	On the one hand if your commits are made automatically you diminish the user-error risk (e.g. You forgot to save an 
+	important change and close the project) but on the other hand you'll most likely end up having either too many commits, 
+	not useful commits or both. 
+	If you choose when to do the commits you can control the lenght, frequency and logic of the commits, which even 
+	considering user error is a better trade-off.  
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, 
+like Google Docs, treat each file separately?
+	It depends on the type of version control system, if the files that its meant to save are completely independent then 
+	its unnecessary to be able to save multiple files in one commit. The contrary applies if the files are meant to be 
+	somehow related.
+
+How can you use the commands git log and git diff to view the history of files?
+	'git log' shows all the commits in cronological order with an ID and small description for each. 
+	'git diff' allows you to see only the lines of code that have been modified between two specific commits.
+
+How might using version control make you more confident to make changes that could break something?
+	You can rest assured that in the worst case scenario you just have to restore the previous version, or even better
+	using diff to find exactly where the bug is. Without an organized version control you risk loosing good improvements
+	or even loosing most of the project.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+	I don't know yet.
+
