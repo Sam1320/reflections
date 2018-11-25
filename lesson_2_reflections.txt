@@ -24,5 +24,9 @@ What is the result of merging two branches together? Why do we represent it in t
 	plus the code added in the branch to be merged. This most recent commit (the merge) has two parents: the latest commit of the
 	branch that was check out and the most recent commit of the merged branch.
 
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+	The pros of Git's automatic merging are that you don't have to go to the trouble of manually merging both branches. The cons are that you don't get to see directly the specific changes in the two version and how they fuse into the final version before doing the merge
+	
+
 
 	
