@@ -7,3 +7,11 @@ How is the staging area different from the working directory and the repository?
 	It offers a 'middel point' to organize the changes made. It allows you to bundle different files in a single commit in case
 	its necessary. Its different from the repository and the working directory because its actually a conection between the two
 	the files go from the WD to the SA to the repository in that order. It provides a tool for better organization of commits.
+
+How can you use the staging area to make sure you have one commit per logical change?
+	You can sanity check all the changes made to all the files before you commit in an ordered manner. You also decide which files
+	and in which order you are going to commit them.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+	Every time you want to try new features that you are still not sure are going to work you can create a branch and experiment with it.
+	
