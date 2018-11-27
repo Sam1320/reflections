@@ -10,3 +10,12 @@ Describe the differences between forks, clones, and branches. When would you use
 	Branch: Copy of the state of the current commit that separates from the main version of the project
 	so it can be experimented with without affecting the master branch.
 	Clone: A copy of a remote repository to a local directory.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+	That way I can have access to the most recent update to the remote in case i need it.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+	When collaborating in a project its not advisable to update the master branch directly because not everyone would be able
+	to clarily see which changes have been made. Instead its better to create a branch locally with the change and push it to 
+	the remote and then create a pull request, that way everyone participating can check every change to the project before is
+	officially made.
